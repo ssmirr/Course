@@ -20,7 +20,7 @@ You must provide the following two commands:
 # Configure jenkins and build environment
 $ pipeline setup
 
-_This command should create a .vault-pass file, with the password "csc-devops-2020" inside the VM to decode any vaults_. 
+# ^ This command should copy a .vault-pass file from host to vm
 
 # Trigger a build job (named checkbox.io), wait for output, and print build log.
 $ pipeline build checkbox.io
